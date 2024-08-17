@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 // import alumni2Img from "../../assets/alumni2.jpg";
 const Header = () => {
   return (
-    <div className="w-full h-24 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray 600">
+    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray 600">
       <div >
         <h1>logo</h1>
         {/* <img src={alumni2Img} alt="alumni2" /> */}
