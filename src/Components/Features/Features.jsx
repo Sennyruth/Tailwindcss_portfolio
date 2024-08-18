@@ -1,13 +1,43 @@
-
-
+import Title from "../Layouts/Title"
+import Card from "./Card"
+import { IoLogoReact } from "react-icons/io5";
 const Features = () => {
   return (
-    <section id="services" className="w-full h-[800px] py-20 flex  border-b-[1px] border-b-black">
-    <div className="flex flex-col gap-4">
-    <h1 className="text-5m  uppercase font-light text-designColor tracking-wide">FEATURES</h1>
-    <h2 className="text-5xl text-gray-300 font-bold capitalize">WHAT I DO</h2>
-    </div>
+    <section id="services" className="w-full py-20 flex flex-col border-b-[1px] border-b-black ">
     
+    <Title title="Features" des="WHAT I DO"/>
+<div className="grid grid-cols-3 gap-20">
+<Card
+title="Web Development"
+des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ratione officiis animi officia dolorem enim aliquid at vero dolores maxime."
+icon={<IoLogoReact />}
+/>
+<Card
+title="Web Development"
+des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ratione officiis animi officia dolorem enim aliquid at vero dolores maxime."
+icon={<IoLogoReact />}/>
+
+<Card title="UI/UX Design"
+des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ratione officiis animi officia dolorem enim aliquid at vero dolores maxime."
+icon={<IoLogoReact />}/>
+<Card
+title="Web Development"
+des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ratione officiis animi officia dolorem enim aliquid at vero dolores maxime."
+icon={<IoLogoReact />}/>
+
+<Card 
+title="Web Development"
+des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ratione officiis animi officia dolorem enim aliquid at vero dolores maxime."
+icon={<IoLogoReact />}
+/>
+<Card
+title="Web Development"
+ des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ratione officiis animi officia dolorem enim aliquid at vero dolores maxime."
+ icon={<IoLogoReact />}
+ />
+
+</div>
+<p></p>
        </section> 
   )
 }
