@@ -1,12 +1,12 @@
 import { navlinksdata } from "../../Constants";
 import { Link } from "react-scroll";
-// import alumni2Img from "../../assets/alumni2.jpg";
+import logo from "../../assets/alumni2.jpg"
 const Header = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray 600">
-      <div >
-        <h1>logo</h1>
-        {/* <img src={alumni2Img} alt="alumni2" /> */}
+      <div className="ml-10 flex flex-col items-center gap-2" >
+        <img className="w-12 h-12 rounded-full object-cover" src={logo} alt="" />
+        <h2 className="uppercase">Software enginner</h2>
       </div>
       <div>
         <ul className="flex items-center gap-10">
