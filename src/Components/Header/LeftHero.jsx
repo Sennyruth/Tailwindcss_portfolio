@@ -2,7 +2,6 @@
 import { useTypewriter,Cursor } from "react-simple-typewriter";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
-// import { FaSquareInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { IoLogoHtml5 } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io5";
